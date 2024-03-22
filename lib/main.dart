@@ -76,6 +76,40 @@ class MeuApp extends StatelessWidget {
                         style: TextStyle(color: Colors.white, fontSize: 20.0),
                       ),
                     ),
+                  )),
+              Card(
+                  color: Colors.orange[300],
+                  margin:
+                      const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(25.0),
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.build,
+                        size: 25.0,
+                      ),
+                      title: Text(
+                        'GitHub: @Pormiiles',
+                        style: TextStyle(color: Colors.white, fontSize: 20.0),
+                      ),
+                    ),
+                  )),
+              Card(
+                  color: Colors.orange[300],
+                  margin:
+                      const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(25.0),
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.message,
+                        size: 25.0,
+                      ),
+                      title: Text(
+                        'Instagram: @andrewls__',
+                        style: TextStyle(color: Colors.white, fontSize: 20.0),
+                      ),
+                    ),
                   ))
             ],
           ),
